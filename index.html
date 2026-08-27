@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f1115">
+  <meta name="description" content="FAHMI OMER — مصمم جرافيك وفنان بصري.">
+  <title>FAHMI OMER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="FAHMI OMER">FAHMI<span>.</span></a>
+  <nav class="main-nav" id="mainNav" aria-label="التنقل الرئيسي">
+    <a data-i18n="nav.home" href="index.html">الرئيسية</a>
+    <a data-i18n="nav.about" href="about.html">من أنا</a>
+    <a data-i18n="nav.work" href="portfolio.html">أعمالي</a>
+    <a data-i18n="nav.services" href="services.html">خدماتي</a>
+    <a data-i18n="nav.contact" href="contact.html">تواصل</a>
+  </nav>
+  <div class="header-tools">
+    <div class="lang">
+      <button class="icon-btn" id="langBtn" type="button" aria-expanded="false" aria-label="اختيار اللغة">AR⌄</button>
+      <div class="lang-menu" id="langMenu">
+        <button data-lang="ar" type="button">العربية</button>
+        <button data-lang="en" type="button">English</button>
+        <button data-lang="zh" type="button">中文</button>
+        <button data-lang="es" type="button">Español</button>
+      </div>
+    </div>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="تبديل الوضع الليلي والفاتح">
+      <span class="theme-icon">☾</span>
+    </button>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-label="فتح القائمة">☰</button>
+  </div>
+</header>
+<main>
+<section class="hero section">
+  <div class="hero-copy reveal">
+    <p class="eyebrow">GRAPHIC DESIGNER · VISUAL ARTIST</p>
+    <h1 data-i18n="hero.title">فهمي<br><em>عمر</em></h1>
+    <p class="lead" data-i18n="hero.lead">أحوّل الأفكار إلى تجارب بصرية جريئة، وهوية تصميمية تترك أثرًا.</p>
+    <div class="actions">
+      <a class="btn gold" data-i18n="hero.work" href="portfolio.html">استكشف أعمالي</a>
+      <a class="btn ghost" data-i18n="hero.contact" href="contact.html">ابدأ مشروعًا</a>
+    </div>
+  </div>
+  <div class="hero-art reveal">
+    <div class="portrait"><span>FO</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-head"><span>01</span><h2 data-i18n="home.selected">أعمال مختارة</h2></div>
+  <div class="grid three">
+    <a class="project reveal" href="portfolio.html"><div class="visual v1"><b>IDENTITY<br>NO.01</b></div><h3 data-i18n="work.brand">هوية بصرية</h3></a>
+    <a class="project reveal" href="portfolio.html"><div class="visual v2"><b>TYPE<br>MATTERS</b></div><h3 data-i18n="work.poster">ملصق تجريبي</h3></a>
+    <a class="project reveal" href="portfolio.html"><div class="visual v3"><b>SOCIAL<br>CAMPAIGN</b></div><h3 data-i18n="work.social">حملة رقمية</h3></a>
+  </div>
+</section>
+<section class="statement reveal"><p>DESIGN IS</p><h2 data-i18n="home.statement">ما تراه<br><em>وما تشعر به.</em></h2></section></main>
+<footer class="site-footer">
+  <span>FAHMI OMER</span>
+  <span>© 2026 — ALL RIGHTS RESERVED</span>
+</footer>
+<button class="back-to-top" id="backToTop" type="button" aria-label="العودة للأعلى">↑</button>
+<script src="js/i18n.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>

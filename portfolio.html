@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f1115">
+  <meta name="description" content="FAHMI OMER — مصمم جرافيك وفنان بصري.">
+  <title>FAHMI OMER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="FAHMI OMER">FAHMI<span>.</span></a>
+  <nav class="main-nav" id="mainNav" aria-label="التنقل الرئيسي">
+    <a data-i18n="nav.home" href="index.html">الرئيسية</a>
+    <a data-i18n="nav.about" href="about.html">من أنا</a>
+    <a data-i18n="nav.work" href="portfolio.html">أعمالي</a>
+    <a data-i18n="nav.services" href="services.html">خدماتي</a>
+    <a data-i18n="nav.contact" href="contact.html">تواصل</a>
+  </nav>
+  <div class="header-tools">
+    <div class="lang">
+      <button class="icon-btn" id="langBtn" type="button" aria-expanded="false" aria-label="اختيار اللغة">AR⌄</button>
+      <div class="lang-menu" id="langMenu">
+        <button data-lang="ar" type="button">العربية</button>
+        <button data-lang="en" type="button">English</button>
+        <button data-lang="zh" type="button">中文</button>
+        <button data-lang="es" type="button">Español</button>
+      </div>
+    </div>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="تبديل الوضع الليلي والفاتح">
+      <span class="theme-icon">☾</span>
+    </button>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-label="فتح القائمة">☰</button>
+  </div>
+</header>
+<main>
+<section class="page-title reveal"><p class="eyebrow">SELECTED WORK</p><h1 data-i18n="portfolio.title">أعمالي <em>الإبداعية</em></h1></section>
+<section class="section">
+  <div class="filters" role="tablist" aria-label="تصفية الأعمال">
+    <button class="active" data-filter="all" data-i18n="filter.all">الكل</button>
+    <button data-filter="branding" data-i18n="filter.branding">هوية</button>
+    <button data-filter="poster" data-i18n="filter.poster">بوسترات</button>
+    <button data-filter="social" data-i18n="filter.social">سوشيال</button>
+    <button data-filter="art" data-i18n="filter.art">فن رقمي</button>
+  </div>
+  <div class="grid three">
+    <article class="project reveal" data-cat="branding"><div class="visual v1"><b>IDENTITY<br>NO.01</b></div><h3 data-i18n="work.brand">هوية بصرية</h3><small>BRANDING</small></article>
+    <article class="project reveal" data-cat="poster"><div class="visual v2"><b>TYPE<br>MATTERS</b></div><h3 data-i18n="work.poster">ملصق تجريبي</h3><small>POSTER DESIGN</small></article>
+    <article class="project reveal" data-cat="social"><div class="visual v3"><b>SOCIAL<br>CAMPAIGN</b></div><h3 data-i18n="work.social">حملة رقمية</h3><small>SOCIAL MEDIA</small></article>
+    <article class="project reveal" data-cat="art"><div class="visual v4"><b>VISUAL<br>ART</b></div><h3 data-i18n="work.art">فن بصري</h3><small>DIGITAL ART</small></article>
+    <article class="project reveal" data-cat="branding"><div class="visual v5"><b>MONO<br>MARK</b></div><h3 data-i18n="work.logo">تصميم شعار</h3><small>LOGO DESIGN</small></article>
+    <article class="project reveal" data-cat="poster"><div class="visual v6"><b>FORM<br>&amp; SPACE</b></div><h3 data-i18n="work.form">تكوين بصري</h3><small>ART DIRECTION</small></article>
+  </div>
+</section></main>
+<footer class="site-footer">
+  <span>FAHMI OMER</span>
+  <span>© 2026 — ALL RIGHTS RESERVED</span>
+</footer>
+<button class="back-to-top" id="backToTop" type="button" aria-label="العودة للأعلى">↑</button>
+<script src="js/i18n.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
